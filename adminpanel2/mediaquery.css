@@ -20,10 +20,17 @@
 @media (max-width: 567px) {}
 
 /* / Mobile 375px   / */
-@media (max-width: 375px) {}
+@media (max-width: 385px) {
+    .card-body{
+        width: 100%;
+        overflow-x:scroll;
+    }
+}
 
 /* / Mobile 360px   / */
 @media (max-width: 360px) {}
 
 /* / Mobile 320px   / */
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    
+}
