@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card .h5{
+    margin-bottom: 0;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(310deg, #7928ca, #ff0080);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    align-items: center;
+}
+.menu i{
+    padding: 0 5px 0 15px;
+}
