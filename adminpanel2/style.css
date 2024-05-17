@@ -19,7 +19,7 @@ p{
 }
 .card-body{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 
@@ -43,4 +43,43 @@ p{
 }
 .menu i{
     padding: 0 5px 0 15px;
+}
+
+
+#graph .icon{
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(310deg, #7928ca, #ff0080);
+    border-radius: 10px;
+    padding: 2%;
+    
+}
+#graph .icon2{
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(310deg, #2152ff, #21d4fd);
+    border-radius: 10px;
+}
+#graph .icon3{
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(310deg, #f53939, #fbcf33);
+    border-radius: 10px;
+}
+#graph .icon4{
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(310deg, #ea0606, #ff667c);
+    border-radius: 10px;
+}
+#graph i{
+    font-size: 15px;
+    color: white;
+}
+#graph span{
+    margin: 0 5px;
+}
+.progress{
+    height: 10px;
+    width:80px;
 }
