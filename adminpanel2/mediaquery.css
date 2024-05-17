@@ -17,7 +17,12 @@
 @media (max-width: 767px) {}
 
 /* / Iphone 567px   / */
-@media (max-width: 567px) {}
+@media (max-width: 520px) {
+    #graph .box{
+        width: 100%;
+        overflow: scroll;
+    }
+}
 
 /* / Mobile 375px   / */
 @media (max-width: 385px) {
